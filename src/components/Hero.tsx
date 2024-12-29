@@ -95,7 +95,7 @@ export function Hero() {
             >
               <div className="relative w-full aspect-square">
                 <img
-                  src="src/components/Media/Bvu_Headshot 1.JPG"
+                  src="src/components/Media/converted_image.png"
                   alt="Profile"
                   className="w-full h-full object-cover rounded-full shadow-2xl"
                 />
