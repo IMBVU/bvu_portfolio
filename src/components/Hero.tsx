@@ -93,7 +93,7 @@ export function Hero() {
               transition={{ duration: 1, delay: 0.4 }}
               className="relative"
             >
-              <div className="relative w-full aspect-square, position-fixed z-index 9999">
+              <div className="relative w-full aspect-square">
                 <img
                   src={"/src/components/bvu_offical PI.png"}
                   alt="Profile"
