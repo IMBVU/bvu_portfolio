@@ -95,7 +95,7 @@ export function Hero() {
             >
               <div className="relative w-full aspect-square, position-fixed z-index 9999">
                 <img
-                  src={"/src/bvu_offical PI.png"}
+                  src={"/src/components/bvu_offical PI.png"}
                   alt="Profile"
                   className="w-full h-full object-cover rounded-full shadow-2xl"
                 />
