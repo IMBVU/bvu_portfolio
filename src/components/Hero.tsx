@@ -95,7 +95,7 @@ export function Hero() {
             >
               <div className="relative w-full aspect-square">
                 <img
-                  src={"/src/components/Media/converted_image.png"}
+                  src={"https://media-hosting.imagekit.io//03b1302f0c614950/converted_image.png?Expires=1833833637&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=OVBaKAnx3pqje~n4FiKMCTUaNrjxW~HITykfJXTO~kHdAbD7Yzv135RlSnDyArGoAhR1KV5SDju8OgES1-9K~IMBwP3Xr9oPsGWzHIzbeJUOK-W0Jml1urIJRGPOPA4Gw5djMvHAlnjDddGS1RnZkQXPOfeVYZtxMx-xKzuy3AkyVJf3d11LuMSgxXzdkn5JIfffvPwkN9bwRfy7KGcn~UyKmVzvBbkxuqvXAA2dhLTJSiOG4nWPmUyfiIGY32xev4o0l7OZbBcOOnxVPylHEo3SLXxRgHA3UXoi8ZNGDLb3IfkunF7aEpsk~FUVvgixD6gp-NswVk26V87G4~O2gA__"}
                   alt="Profile"
                   className="w-full h-full object-cover rounded-full shadow-2xl"
                 />
