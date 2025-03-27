@@ -6,7 +6,7 @@ const projects = [
   {
     title: "Analytics",
     description: "A modern analytics platform built with React and Node.js",
-    image: "https://images.unsplash.com/photo-1661956602116-aa6865609028?auto=format&fit=crop&q=80&w=1280",
+    image: "https://imagekit.io/tools/asset-public-link?detail=%7B%22name%22%3A%22tab-7823156_1280.png%22%2C%22type%22%3A%22image%2Fpng%22%2C%22signedurl_expire%22%3A%222028-03-26T21%3A56%3A10.910Z%22%2C%22signedUrl%22%3A%22https%3A%2F%2Fmedia-hosting.imagekit.io%2F920f328c0773499c%2Ftab-7823156_1280.png%3FExpires%3D1837720571%26Key-Pair-Id%3DK2ZIVPTIP2VGHC%26Signature%3DhLk4hmRDwCc-zffXuUy-1eNu9oo7RBYCazy35F4oo2nPudLFH34XUKT9RuRLHlks6Qnw~4fWuZwp9ah-j3CVbH4u8mY9zj0Hr3VEgXNaacs5mK6nM7dbkHs6VHlcB1fGmgE~vrCQELkCxPi-90pcral3-2vovjrnO97wJbr~i4UNtJLQkuoyWdXD9~sw4qpDPIv-HROCdx-IOa3mFgYok72721Wp94XjkAmdCFb3xBosWkl-8zJmcrvkkeJZX2bew-lkwJYox6alkobe~PU83elMadfL4Y2NNIyTOMl3w7PGg3ufux4gB7BlS4NPV7rNaQFfOlPc1m15m2REIGJOwA__%22%7D",
     link: "/analytics"
   },
   {
