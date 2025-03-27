@@ -11,6 +11,7 @@ import { ContactPage } from './pages/ContactPage';
 import { AnalyticsPage } from './pages/AnalyticsPage';
 import { SoftwareDevelopmentPage } from './pages/SoftwareDevelopmentPage';
 import { ContentCreationPage } from './pages/ContentCreationPage';
+import { ThreeBarPage } from './pages/3BarPage';
 
 export default function App() {
   const [isLoading, setIsLoading] = useState(true);
@@ -43,6 +44,7 @@ export default function App() {
             <Route path="/analytics" element={<AnalyticsPage />} />
             <Route path="/software-development" element={<SoftwareDevelopmentPage />} />
             <Route path="/content-creation" element={<ContentCreationPage />} />
+            <Route path="/3bar" element={<ThreeBarPage />} />
           </Routes>
           <ThemeToggle />
           <BackToTop />
