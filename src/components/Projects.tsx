@@ -25,7 +25,7 @@ const projects = [
     title: "3Bar LLC",
     description: "All-in-one solution for managing business operations and workflows",
     image: "https://images.unsplash.com/photo-1664575602554-2087b04935a5?auto=format&fit=crop&q=80&w=1280",
-    link: "#"
+    link: "/3bar"
   }
 ];
 
@@ -59,21 +59,12 @@ export function Projects() {
                 <div className="text-center p-6">
                   <h3 className="text-2xl font-bold mb-2 text-gray-900 dark:text-white">{project.title}</h3>
                   <p className="text-gray-600 dark:text-gray-400 mb-4">{project.description}</p>
-                  {project.link.startsWith('/') ? (
-                    <Link
-                      to={project.link}
-                      className="inline-flex items-center gap-2 text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
-                    >
-                      View Project <ExternalLink className="w-4 h-4" />
-                    </Link>
-                  ) : (
-                    <a
-                      href={project.link}
-                      className="inline-flex items-center gap-2 text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
-                    >
-                      View Project <ExternalLink className="w-4 h-4" />
-                    </a>
-                  )}
+                  <Link
+                    to={project.link}
+                    className="inline-flex items-center gap-2 text-gray-900 dark:text-white hover:text-gray-600 dark:hover:text-gray-300 transition-colors"
+                  >
+                    View Project <ExternalLink className="w-4 h-4" />
+                  </Link>
                 </div>
               </div>
             </motion.div>
