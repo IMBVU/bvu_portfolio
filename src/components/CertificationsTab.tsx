@@ -50,7 +50,7 @@ export function CertificationsTab({ isOpen, onClose }: CertificationsTabProps) {
         initial={{ x: '100%' }}
         animate={{ x: isOpen ? '0%' : '100%' }}
         transition={{ type: "spring", damping: 20 }}
-        className="fixed right-0 top-0 h-full w-full max-w-md bg-white dark:bg-gray-900 shadow-2xl z-50"
+        className="fixed right-0 top-20 h-[calc(100%-5rem)] w-full max-w-md bg-white dark:bg-gray-900 shadow-2xl z-50"
       >
         <div className="p-6 h-full overflow-y-auto">
           <div className="flex items-center justify-between mb-8">
