@@ -8,9 +8,9 @@ interface HobbiesOverlayProps {
 
 const hobbies = [
   {
-    title: 'Photography',
+    title: 'Volleyball',
     description:
-      'Capturing moments and creating visual stories through the lens',
+      'Played volleyball for 5+ years as a Setter and Opposite Pin',
     icon: Camera,
     image:
       'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=1000',
@@ -23,16 +23,16 @@ const hobbies = [
       'https://images.unsplash.com/photo-1601506521937-0121a7fc2a6b?auto=format&fit=crop&q=80&w=1000',
   },
   {
-    title: 'Gaming',
-    description: 'Exploring virtual worlds and competitive gaming',
+    title: 'Pickleball',
+    description: 'Facinated in learning and mastering pickleball ',
     icon: Gamepad,
     image:
       'https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&q=80&w=1000',
   },
   {
-    title: 'Digital Art',
+    title: 'Bartending/Barista',
     description:
-      'Creating digital illustrations and exploring creative expression',
+      'Creating tasty and stunning mixed drinks and soft beverages ',
     icon: Palette,
     image:
       'https://images.unsplash.com/photo-1619410283995-43d9134e7656?auto=format&fit=crop&q=80&w=1000',
