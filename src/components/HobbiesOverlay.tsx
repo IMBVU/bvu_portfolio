@@ -1,5 +1,5 @@
 import { motion, AnimatePresence } from 'framer-motion';
-import { X, Camera, Film, Gamepad, Palette } from 'lucide-react';
+import { X, Camera, Film, Gamepad, Palette, Volleyball } from 'lucide-react';
 
 interface HobbiesOverlayProps {
   isOpen: boolean;
@@ -11,7 +11,7 @@ const hobbies = [
     title: 'Volleyball',
     description:
       'Played volleyball for 5+ years as a Setter and Opposite Pin',
-    icon: Camera,
+    icon: Volleyball,
     image:
       'https://images.unsplash.com/photo-1516035069371-29a1b244cc32?auto=format&fit=crop&q=80&w=1000',
   },
