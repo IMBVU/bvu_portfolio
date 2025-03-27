@@ -3,8 +3,8 @@ import { Globe, Palette, Camera, Film } from 'lucide-react';
 
 const services = [
   {
-    title: "Web Development",
-    description: "Creating responsive and modern websites with cutting-edge technologies",
+    title: "Data Analytics/Science",
+    description: "Extract meaningful insights and knowledge from data to inform decisions, solve problems, and drive innovation",
     icon: Globe,
     color: "from-blue-500/20 to-cyan-500/20 dark:from-blue-500/10 dark:to-cyan-500/10"
   },
@@ -15,8 +15,8 @@ const services = [
     color: "from-purple-500/20 to-pink-500/20 dark:from-purple-500/10 dark:to-pink-500/10"
   },
   {
-    title: "Photography",
-    description: "Professional photo shoots and post-processing for stunning visuals",
+    title: "Software Development",
+    description: "Design, build, test, and maintain software applications",
     icon: Camera,
     color: "from-amber-500/20 to-orange-500/20 dark:from-amber-500/10 dark:to-orange-500/10"
   },
