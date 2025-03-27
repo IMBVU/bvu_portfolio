@@ -12,19 +12,19 @@ const projects = [
   {
     title: "Software Development",
     description: "Comprehensive business intelligence platform for data-driven decisions",
-    image: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?auto=format&fit=crop&q=80&w=1280",
+    image: "https://media-hosting.imagekit.io/9b7d0cdf7b3b4aee/code-1839406_1280.jpg?Expires=1837720571&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=afc7RWOMiVQl-pTVg1q8tWxmD8lyGENyc~C26I~DHivI0qFkJqdHe6~DTlVidqeAgBAaMG1pp~q6O6foUz5HEZW4uF6NcclX9SQhShFX08qjFrWqpj5zPOGtyFFlpFVhZsVGteM2mOuTGVdeoml3VSVmx6cxQ0HW8JzTRGd27C~thIwo0D5mJBIU0e-SLHWelCjSkSAb4k7ETX2gIj8SZWo~IRXGix9FxhUMedmHUrEIwHiAF~f9bAdhua0dMYPh9b2676oCzx1K2AXnzpMpiEc0MP-n8jjlj-Y3ABM7CguyQlP4Kof4OddrK6Ay0b1HMxDBRiswWL78lxsPM7xYRQ__",
     link: "/software-development"
   },
   {
     title: "Content Creation",
     description: "Professional photography, videography, and digital content creation",
-    image: "https://images.unsplash.com/photo-1551288049-bebda4e38f71?auto=format&fit=crop&q=80&w=1280",
+    image: "https://media-hosting.imagekit.io/1746ce05594d4279/computer-5903052_1280.jpg?Expires=1837720571&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=nNEcesn2lt1KtrUoLIo98boXp7PhbLCQja4QtwWuoUbTdcP1WT796zP1RHRijI2PH38swamgnmKIue70hlIGRfw0Ut0ZNsKOdFlcrBhbueIlBYYCBRCpfzJp6h6Mvf-QqDnNDX3ID1p~uZpSGO1nSHqNQ1ADxCczw2JuDLzFSA6OddVFahsVxxjZm~JC-mpaWwLvGaztYbHa9upOEpkKlyRJyT9Ih107KL3XYuLACBukzVkLbFunBaAFZMpFBH2kVb3MB8njQ1f3W-tmK~h9fJVn0R3Uic9CmYRBQpyvcKh7gK8QCDMyYDC9KEatyJ70u7cBS9sXJquKfeNYqTLSBQ__",
     link: "/content-creation"
   },
   {
     title: "3Bar LLC",
     description: "All-in-one solution for managing business operations and workflows",
-    image: "https://images.unsplash.com/photo-1664575602554-2087b04935a5?auto=format&fit=crop&q=80&w=1280",
+    image: "https://media-hosting.imagekit.io/71098db3bac94ab3/wine-6878041_1280.jpg?Expires=1837720571&Key-Pair-Id=K2ZIVPTIP2VGHC&Signature=YeUgTMLj-pUrCFl9oce3J9Ooad7hIeKy4rrWbkuKaRZSPO4lVq-kGW-5zrVyXBvXRpRkC4PCFshLpI6UFxZg9EbNb-VJGmOEslgtGtjMGAlwRsuBR4dIYr8F4S9ZNu7nIzMUOUuyM7CPp8wXSXed2jmk0bAwXT8NjteOiJeso5~VPzg50UZr87uaMlZIdzoHjfvSSNIsRWhCGtHIyJl9~t3R7auNL0-uMg1~WrsI53IS8ccMfh~86iuQ06isKQGIAbPJ6zxG-hXPbbQmyyQ3p18w5bDCKe5iBxuelHEGpNLL9xcC4Mq3klzg047dFFrZuDn57reF39rspaunVYMNcQ__",
     link: "/3bar"
   }
 ];
