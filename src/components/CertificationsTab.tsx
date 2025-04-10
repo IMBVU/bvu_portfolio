@@ -8,29 +8,17 @@ interface CertificationsTabProps {
 
 const certifications = [
   {
-    title: "AWS Certified Solutions Architect",
-    issuer: "Amazon Web Services",
-    date: "2023",
-    credentialId: "AWS-123456"
+    title: "Coursera IBM Full-Stack Developer",
+    issuer: "Coursera",
+    date: "2024",
+    credentialId: "MTMQTXZH0ERQ"
   },
   {
-    title: "Google Professional Cloud Developer",
-    issuer: "Google Cloud",
-    date: "2023",
-    credentialId: "GCP-789012"
+    title: "Data Camp Data Analyst",
+    issuer: "Data Camp",
+    date: "2025",
+    credentialId: "DA0020503026302"
   },
-  {
-    title: "Meta Frontend Developer",
-    issuer: "Meta",
-    date: "2022",
-    credentialId: "MFD-345678"
-  },
-  {
-    title: "Adobe Certified Professional",
-    issuer: "Adobe",
-    date: "2022",
-    credentialId: "ACP-901234"
-  }
 ];
 
 export function CertificationsTab({ isOpen, onClose }: CertificationsTabProps) {
