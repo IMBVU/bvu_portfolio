@@ -8,31 +8,72 @@ interface HobbiesOverlayProps {
 
 const hobbies = [
   {
-    title: 'Volleyball',
-    description:
-      'Played volleyball for 5+ years as a Setter and Opposite Pin',
-    image:
-      'https://i.postimg.cc/br1y16dB/beach-volleyball-6483905-1280.jpg',
+    title: "Volleyball",
+    description: "Playing competitive volleyball and improving team dynamics",
+    icon: () => (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-6 h-6"
+      >
+        <circle cx="12" cy="12" r="10" />
+        <path d="M12 2v20M2 12h20" />
+        <path d="M12 2c4.4 0 8 3.6 8 8" />
+      </svg>
+    ),
+    image: "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?auto=format&fit=crop&q=80&w=1000"
   },
   {
-    title: 'Videography',
-    description: 'Creating cinematic experiences and dynamic visual content',
-    image:
-      'https://images.unsplash.com/photo-1601506521937-0121a7fc2a6b?auto=format&fit=crop&q=80&w=1000',
+    title: "Videography",
+    description: "Creating cinematic experiences and dynamic visual content",
+    icon: Film,
+    image: "https://images.unsplash.com/photo-1601506521937-0121a7fc2a6b?auto=format&fit=crop&q=80&w=1000"
   },
   {
-    title: 'Pickleball',
-    description: 'Facinated in learning and mastering pickleball ',
-    image:
-      'https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&q=80&w=1000',
+    title: "Pickleball",
+    description: "Enjoying the fast-paced, social sport of pickleball",
+    icon: () => (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-6 h-6"
+      >
+        <circle cx="12" cy="12" r="8" />
+        <path d="M12 4v16M4 12h16" />
+      </svg>
+    ),
+    image: "https://images.unsplash.com/photo-1659201239834-f444e2c4821e?auto=format&fit=crop&q=80&w=1000"
   },
   {
-    title: 'Bartending/Barista',
-    description:
-      'Creating tasty and stunning mixed drinks and soft beverages ',
-    image:
-      'https://images.unsplash.com/photo-1619410283995-43d9134e7656?auto=format&fit=crop&q=80&w=1000',
-  },
+    title: "Barista/Bartending",
+    description: "Crafting exceptional coffee and cocktail experiences",
+    icon: () => (
+      <svg
+        viewBox="0 0 24 24"
+        fill="none"
+        stroke="currentColor"
+        strokeWidth="2"
+        strokeLinecap="round"
+        strokeLinejoin="round"
+        className="w-6 h-6"
+      >
+        <path d="M17 8h1a4 4 0 1 1 0 8h-1" />
+        <path d="M3 8h14v9a4 4 0 0 1-4 4H7a4 4 0 0 1-4-4Z" />
+        <line x1="6" y1="2" x2="6" y2="4" />
+        <line x1="10" y1="2" x2="10" y2="4" />
+        <line x1="14" y1="2" x2="14" y2="4" />
+      </svg>
+    ),
+    image: "https://images.unsplash.com/photo-1577592143361-cf9c97d55761?auto=format&fit=crop&q=80&w=1000"
+  }
 ];
 
 export function HobbiesOverlay({ isOpen, onClose }: HobbiesOverlayProps) {
