@@ -11,21 +11,18 @@ const hobbies = [
     title: 'Volleyball',
     description:
       'Played volleyball for 5+ years as a Setter and Opposite Pin',
-    icon: ,
     image:
       'https://i.postimg.cc/br1y16dB/beach-volleyball-6483905-1280.jpg',
   },
   {
     title: 'Videography',
     description: 'Creating cinematic experiences and dynamic visual content',
-    icon: ,
     image:
       'https://images.unsplash.com/photo-1601506521937-0121a7fc2a6b?auto=format&fit=crop&q=80&w=1000',
   },
   {
     title: 'Pickleball',
     description: 'Facinated in learning and mastering pickleball ',
-    icon: ,
     image:
       'https://images.unsplash.com/photo-1538481199705-c710c4e965fc?auto=format&fit=crop&q=80&w=1000',
   },
@@ -33,7 +30,6 @@ const hobbies = [
     title: 'Bartending/Barista',
     description:
       'Creating tasty and stunning mixed drinks and soft beverages ',
-    icon: ,
     image:
       'https://images.unsplash.com/photo-1619410283995-43d9134e7656?auto=format&fit=crop&q=80&w=1000',
   },
